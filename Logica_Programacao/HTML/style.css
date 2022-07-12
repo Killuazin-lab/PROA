@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(90deg, rgba(236, 31, 31, 0.877) 9%, rgba(63,93,166,1) 52%, rgba(66, 63, 236, 0.767) 80%);
+    align-items: center;
+    text-align: center;
+    margin-top: 290px;
+
+}
+
+body h1{
+    display: block;
+}
+
+body h2{
+    display: block;
+    text-indent: 60px;
+    text-align-last: center;
+}
+
+.btn{
+    background-color: #7752c0;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 15px 10px 10px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: cadetblue;
+    box-shadow: rgb(51, 87, 94) 10px 7px 15px 10px;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 20px 15px 15px 20px;
+}
+
+span {
+    display: block;
+    text-decoration: underline;
+    color: rgb(182, 182, 172);
+}
+
+
+

@@ -1,0 +1,79 @@
+<!--Aula25.02-->
+<!--Gab04-->
+<!--Versão 5 do HTML-->
+<!DOCTYPE html> 
+<!--Elemento raiz de uma página html
+    Navegador: Interpretador de código. Ex.: Google Chrome, Opera
+    <a> : Tag
+    <a b=""> : b é atributo
+    <a b="c"> : c é descrição
+    Meta tags : Contém os dados da página
+    Árvore Binária
+    Lang : Atribui o idioma para a página
+    html:5 + <ENTER> ou ! + <ENTER> : Escreve autoaticamente a estrutura do HTML-->
+<html lang="pt-br">    
+    <!--Aba da página-->
+    <head> 
+        <title>Quarta página HTML</title>
+        <!--Rel : Cria uma relação ao icon, categoria do arquivo
+            Href : Um caminho(link)
+            Src : Também é indica um caminho (imagem)-->
+            <link rel="shortcut icon" href="img/icon.png" type="image/x-icon"/>
+            <meta name="author" content="Gabriela"/>
+            <meta name="keywords" content="Aula, Jailson, Estudo"/>
+            <meta name="description" content="Pagina de aulas do Jailson"/>
+            <!--Redireciona de um navegador à outro. Ex.: Pesquisa no Explorer e encaminha para o Edge (Versão mais atualizada no mercado)-->
+            <meta http-equiv="X-UA-Compatible" content="ie==edge"/>
+            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+            <!--Adqua o site ao dispositivo acessado, respansivo-->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--NÃO OBRIGATÓRIO
+                Atualiza página automaticamente, ótimo para sites de notícias-->
+            <meta http-equiv="refresh" content="30; url=http://127.0.0.1:5500/quartapagina.html"/>
+    </head>
+
+    <!--Corpo da página-->
+    <body>
+        <!--<pre> : Pré-Formata seu texto já com parágrafos
+            <p> : Cria um parágrafo sem formatação
+            Lorem : Palvras em latim para testar o site
+            (p>lorem)*2 : 
+            <hr> : Faz uma linha no site, estética
+            <h1> : Criar apenas um (1), informação principal do site, título primordial
+            <h2></h2>, <h3></h3>...<h6></h6> : São subtítulos, indicam um Grau de importância dentro de um site     
+            Hierarquia (Título, Subtítulo 1, Subtítulo 2, ...,Subtítulo 6) : Auxilia na leitura de página, a tecla <TAB> encaminha de um texto para o outro seguido o grau de importância
+            <br> (break) : Aplica uma quebra de linha-->
+        <h1>Título</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            <br>Fugiat deleniti at perferendis et culpa ad nisi totam est modi.
+            <br>Eius deleniti esse porro odio facilis numquam quasi, tempora minima aut.
+            </p>
+        <hr>
+        <h2>Subtítulo 01</h2>
+        <pre>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe itaque vero quisquam tempore soluta laudantium sint cumque reiciendis est, error ratione eum officiis ducimus minima explicabo placeat quaerat pariatur! Dignissimos.
+            Minus officia magni unde necessitatibus modi impedit, excepturi ut ipsam consectetur fuga ipsum quod quo, numquam quis explicabo, est odio. Neque officiis cumque excepturi eligendi corporis dignissimos aut, cum laudantium?
+            Fuga maiores ad similique quam recusandae esse enim eum laboriosam? Quibusdam, laboriosam. Eligendi consequuntur voluptatibus modi officiis necessitatibus iste perspiciatis dolore ut labore quod, tenetur ratione, placeat reiciendis itaque fugit!
+        </pre>
+        <hr>
+        <h3>Subtítulo 02</h3>
+        <!--Src: Caminho da imagem
+            Alt : caso a imagem não carregue aprarece uma descrição
+            Title : Descrição/Autoria da imagem(Aparece quando o mouse para na imagem)
+            Width : Comprimento
+            Height : Altura-->
+        <img src="img/abelhuda.jpg" title="Doze abelhas em uma colmeia amarela com tons alaranjados, uma se encontra no centro da imagem com as outras onze ao redor" alt="autor:google imagens" width="200px" height="100px">
+        <hr>
+        <h4>Subtítulo 03</h4>
+        <!--<a href="link"> Redireciona a um link-->
+        <a href = "https://www.youtube.com.br" > 
+            <img src="https://thumbs.dreamstime.com/b/%C3%ADcone-do-desenho-animado-perigo-vetor-de-sinal-aten%C3%A7%C3%A3o-ilustra%C3%A7%C3%A3o-precau%C3%A7%C3%A3o-158126593.jpg" alt="perigo" width="100px" height="100px">
+        </a>
+        <hr>
+        <h5>Subtítulo 04</h5>
+        <hr>
+        <h6>Subtítulo 05</h6>
+        <hr>
+    </body>
+
+</html>

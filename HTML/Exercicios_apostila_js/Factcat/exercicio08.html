@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 8 FACCAT</title>
+</head>
+<body>
+    <script>
+
+        let eleitores,branco,nulo,valido,vBranco,vNulo,vValido;
+        eleitores=parseInt(prompt("Escreva o numero de eleitores: "));
+        vBranco=parseInt(prompt("Escreva o numero de votos Brancos: "));
+        vNulo=parseInt(prompt("Escreva o numero de votos Nulos: "));
+        vValido=parseInt(prompt("Escreva o numero de votos Validos: "));
+        branco=(vBranco*100)/eleitores;
+        nulo=(vNulo*100)/eleitores;
+        valido=(vValido*100)/eleitores;
+        alert("A porcentagem de votos brancos: "+branco+"% de "+eleitores+" eleitores");
+        alert("A porcentagem de votos nulos: "+nulo+"% de "+eleitores+" eleitores");
+        alert("A porcentagem de votos validos: "+valido+"% de "+eleitores+" eleitores");
+
+    </script>
+</body>
+</html>

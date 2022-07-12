@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    
+</head>
+<body style="background-color: rgb(202, 238, 226);text-align: center;">
+    <h2>Formulário</h2>
+    <form action="login.html" method="post"> <!--Post não aparece informações, get aparece informações-->
+
+        <label for="nome">*Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui" required autocomplete="additional-name" tabindex="1"> 
+        <br>
+        <label for="sobrenome">*Sobrenome:</label>
+        <input type="text" name="sobrenome" id="sobrenome" value="testes" required>
+        <br>
+        <label for="senha">*Senha:</label>
+        <input type="password" name="senha" id="senha" required tabindex="2">
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <h2>Form 2</h2>
+    <br>
+    <form action="login.html" method="post" style="text-align: center;">
+    <fieldset>
+
+        <legend>Personalidade</legend>
+        <label for="nome">Nome:</label>
+        <br>
+        <input type="text" name="nome" id="nome" value="Creusc">
+        <br>
+        <label for="sobrenome">Sobrenome:</label>
+        <br>
+        <input type="text" name="sobrenome" id="sobrenome" value="Med">
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+
+
+    </fieldset>
+</form>
+    <br>
+    <h2>Form 3</h2>
+    <br>
+
+
+
+    <form action="login.html" method="post">
+
+        <input list="browsers" name="browsers">
+        <datalist id="browsers">
+
+            <option value="Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+
+        </datalist>
+        <input type="submit">
+    </form>
+
+    <br>
+    <h2>Form 4</h2>
+    <br>
+    <form action="login.php" method="post" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" id="a" name="a" value="50">
+        100 +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br>
+        <br>
+        <input type="submit" >
+    </form>
+    <br>
+    <h2>Form 5</h2>
+    <br>
+    <form action="login.php" method="post">
+
+        <textarea name="message" style="width: 200px; height: 600px;" cols="30" rows="10">heheheheheheheehehhehehehehe</textarea>
+        <br>
+        <input type="submit" >
+
+    </form>
+
+    <br>
+    <h2>Form 6</h2>
+    <br>
+
+    <form action="login.php" method="post">
+
+        <label for="cars">Escolha seu carro</label>
+        <select name="cars" name="cars" size="3"  multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">audi</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit">
+
+    </form>
+    <br>
+    <h2>Form 7</h2>
+    <br>
+    <form action="login.php" method="post">
+
+        <label for="cars">Escolha seu carro</label>
+        <select name="cars" id="cars" size="4" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">audi</option>
+        </select>
+        <input type="submit">
+    </form>
+    <br>
+    <h2>Form 8</h2>
+    <br>
+    <form action="login.php">
+
+        <label for="cars">Escolha seu carro</label>
+        <select name="cars" id="cars">
+
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">audi</option>
+
+        </select>
+        <input type="submit" >
+    </form>
+    <br>
+    <h2>botão</h2>
+    <br>
+
+    <button type="button" onclick="alert('Ola mundo')">Clique em mim</button>
+</body>
+</html>
